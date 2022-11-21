@@ -1,5 +1,5 @@
 # FPGA Driven Seven Segment Display
-Trying to learn about FPGAs using *Arduino's MKR Vidor 4000*. Driving a 7 segment by using the *Cyclone 10 LP* that comes embedded into the board.
+Learning about FPGAs using *Arduino's MKR Vidor 4000*. Driving a 7 segment by using the *Cyclone 10 LP* that comes embedded into the board.
 
 > Source https://github.com/luisgizirian/seven-segment-fpga-driver
 

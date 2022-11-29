@@ -25,6 +25,23 @@ We're planning to use them both to achieve building the project in-tandem. The L
 
 ## Status
 
+(**Nov 29**) Managed to upload and run a design into the embedded FPGA by following this post (https://nerdhut.de/2020/08/17/arduino-mkr-vidor-4000-verilog-fpga-and-mcu-hello-world-tutorial/). We need to run some fixes now (either into design or physical wiring) to make our test smoothly work.
+
+Relevant links:
+- https://forum.arduino.cc/t/how-to-code-and-run-vhdl-examples/561115/8
+- https://forum.arduino.cc/t/how-do-i-upload-verilog-directly-to-my-vidor-4000-board/1013022/3
+- https://forum.arduino.cc/t/next-chapter-of-mkr-vidor-4000-fpga-upload-live-data-exchange/1023945
+- (duplicated) (https://nerdhut.de/2020/08/17/arduino-mkr-vidor-4000-verilog-fpga-and-mcu-hello-world-tutorial/
+
+### To test next...
+
+* VHDPlus IDE [https://vhdplus.com/]
+
+### Conclusion (current state of affairs)
+Having a custom design uploaded into the Arduino's FPGA is encouraging. Tooling is still a bit cumbersome so we'll chech if something can be improved in that space. 
+
+---
+
 (**Nov 23**) Combining FPGA newbieness + undeveloped *Vidor 4000* tooling ecosystem, we've reached a frozen status, filled with **pains (*Vidor 4000* context)**...
 
 * FPGA dev flow & Quartus
@@ -38,7 +55,7 @@ We're planning to use them both to achieve building the project in-tandem. The L
 * VHDPlus IDE [https://vhdplus.com/]
 * VHDL + *Vidor 4000* + breadboard sample [https://forum.arduino.cc/t/how-to-code-and-run-vhdl-examples/561115/12]
 
-### Conclusion (current state of affairs)
+### Conclusion
 
 Still can't figure out if *Vidor 4000* was a good choice as Development Board for newcomers into the FPGA world.
 

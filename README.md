@@ -25,6 +25,10 @@ We're planning to use them both to achieve building the project in-tandem. The L
 
 ## Status
 
+(**Dec 8**) VHDPlus plays well with Intel's Quartus II and as well as their own hardware and standards they appply to (i.e. CRUVI, PMOD). *Vidor 4000* is under the Arduino umbrella, so it out scopes VHDPlus support (as I read over their Discord [Get an invite at https://vhdplus.com/]).
+
+---
+
 (**Nov 29**) Managed to upload and run a design into the embedded FPGA by following this post (https://nerdhut.de/2020/08/17/arduino-mkr-vidor-4000-verilog-fpga-and-mcu-hello-world-tutorial/). We need to run some fixes now (either into design or physical wiring) to make our test smoothly work.
 
 Relevant links:
